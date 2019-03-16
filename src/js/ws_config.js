@@ -3,9 +3,9 @@ var config = {};
 // self explanatory, your application name, descriptions, etc
 config.appName = 'SecurusCoin Wallet';
 config.appDescription = 'SecurusCoin Wallet';
-config.appSlogan = 'Slow and steady wins the race!';
+config.appSlogan = 'securuscoin is safe';
 config.appId = 'securusCoin.walletshell';
-config.appGitRepo = 'https://github.com/';
+config.appGitRepo = 'https://github.com/JOXW/securus-wallet';
 
 // default port number for your daemon (e.g. TurtleCoind)
 config.daemonDefaultRpcPort = 14115;
@@ -17,7 +17,7 @@ config.walletFileDefaultExt = 'swc';
 config.walletServiceBinaryFilename = 'securus-service';
 
 // version on the bundled service (turtle-service)
-config.walletServiceBinaryVersion = "v1.0.0";
+config.walletServiceBinaryVersion = "v1.0.1";
 
 // config file format supported by wallet service, possible values:
 // ini -->  for turtle service (or its forks) version <= v0.8.3
@@ -28,10 +28,10 @@ config.walletServiceConfigFormat = "json";
 config.walletServiceRpcPort = 18114;
 
 // block explorer url, the [[TX_HASH]] will be substituted w/ actual transaction hash
-config.blockExplorerUrl = 'https://explorer.turtlecoin.lol/transaction.html?hash=[[TX_HASH]]';
+config.blockExplorerUrl = 'https://explorer.securuscoin.org/transaction.html?hash=[[TX_HASH]]';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
-config.remoteNodeDefaultHost = 'wika-airline.de';
+config.remoteNodeDefaultHost = 'securuscoin.org';
 
 // remote node list update url, set to null if you don't have one
 config.remoteNodeListUpdateUrl = 'https://raw.githubusercontent.com/JOXW/securuscoin_nodes/master/securuscoin_nodes.json';
@@ -40,8 +40,8 @@ config.remoteNodeListUpdateUrl = 'https://raw.githubusercontent.com/JOXW/securus
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
-  'wika-airline.de:14115',
-  'wika-airlines.de:14115',
+  'securuscoin.org:14115',
+  '85.214.24.190:14115',
 ];
 
 // your currency name
