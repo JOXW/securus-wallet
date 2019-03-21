@@ -2,9 +2,9 @@
   "name": "securuscoin",
   "productName": "SecurusCoin Wallet",
   "description": "Securuscoin GUI Wallet",
-  "version": "v1.0.0",
-  "homepage": "https://github.com/turtlecoin/turtle-wallet-electron",
-  "repository": "https://github.com/turtlecoin/turtle-wallet-electron",
+  "version": "v2.0.0",
+  "homepage": "www.securuscoin.org",
+  "repository": "www.securuscoin.org",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -38,7 +38,7 @@
   },
   "build": {
     "appId": "securuscoin.walletshell",
-    "copyright": "Copyright (c) 2018 Rixombea, Macroshock, TurtleCoin Developers, SecurusCoin Project",
+    "copyright": "Copyright (c) 2019 Rixombea, Macroshock, TurtleCoin Developers, SecurusCoin Project",
     "directories": {
       "output": "dist",
       "buildResources": "build"

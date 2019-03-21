@@ -198,7 +198,7 @@ class WalletShellApi {
             if (!params.address) return reject(new Error('Missing recipient address parameter'));
             if (!params.amount) return reject(new Error('Missing transaction amount parameter'));
             if (parseFloat(params.fee) < 0.01) return reject(new Error('Minimum fee is 0.01 SCR'));
-            //[{address: "TRTLxxxx...", amount: 100}];
+           
             var req_params = {
                 transfers: [{ address: params.address, amount: params.amount }],
                 fee: params.fee

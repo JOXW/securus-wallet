@@ -5,7 +5,7 @@ config.appName = 'SecurusCoin Wallet';
 config.appDescription = 'SecurusCoin Wallet';
 config.appSlogan = 'securuscoin is safe';
 config.appId = 'securusCoin.walletshell';
-config.appGitRepo = 'https://github.com/JOXW/securus-wallet';
+config.appGitRepo = 'securuscoin.org'; //guthub rein
 
 // default port number for your daemon (e.g. TurtleCoind)
 config.daemonDefaultRpcPort = 14115;
