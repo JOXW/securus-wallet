@@ -1,11 +1,11 @@
 var config = {};
 
 // self explanatory, your application name, descriptions, etc
-config.appName = 'SecurusCoin Wallet';
-config.appDescription = 'SecurusCoin Wallet';
-config.appSlogan = 'securuscoin is safe';
-config.appId = 'securusCoin.walletshell';
-config.appGitRepo = 'securuscoin.org'; //guthub rein
+config.appName = 'Securus Wallet';
+config.appDescription = 'Securus Wallet';
+config.appSlogan = 'securus is safe';
+config.appId = 'securus.walletshell';
+config.appGitRepo = 'https://github.com/JOXW/securus-wallet'; //github rein
 
 // default port number for your daemon (e.g. TurtleCoind)
 config.daemonDefaultRpcPort = 14115;
@@ -16,8 +16,8 @@ config.walletFileDefaultExt = 'swc';
 // change this to match your wallet service executable filename
 config.walletServiceBinaryFilename = 'securus-service';
 
-// version on the bundled service (turtle-service)
-config.walletServiceBinaryVersion = "v1.0.1";
+// version on the bundled service (securus-service)
+config.walletServiceBinaryVersion = "v1.0.2";
 
 // config file format supported by wallet service, possible values:
 // ini -->  for turtle service (or its forks) version <= v0.8.3
@@ -45,7 +45,7 @@ config.remoteNodeListFallback = [
 ];
 
 // your currency name
-config.assetName = 'SecurusCoin';
+config.assetName = 'Securus';
 // your currency ticker
 config.assetTicker = 'SCR';
 // your currency address prefix, for address validation
