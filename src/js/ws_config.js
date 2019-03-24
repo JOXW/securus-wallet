@@ -74,8 +74,8 @@ config.addressBookObfuscationKey = '79009fb00ca1b7130832a42de45142cf6c4b7f333fe6
 // initial/sample entries to fill new address book
 config.addressBookSampleEntries = [
   {
-    name: 'WalletShell Donation',
-    address: 'SCRv1A26ngXApin33p1JsSE9Yf6REj97Xruz15D4JtSg1wuqYTmsPj5Geu2kHtBzD8TCsfd5dbdYRsrhNXMGyvtJ61AoYqLXVS',
+    name: 'Jordan Donation',
+    address: 'SCR1PahF4AN2DCBDE8MbFFTk6ABFiRe2nUNSP6gVhZANFfx2t6P5t8LKi7J2YkeaaJcR7jR4ZVKK2j88PtVmdAG18SwZKeLBUn',
     paymentId: '',
   }
 ];
