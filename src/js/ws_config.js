@@ -7,7 +7,7 @@ config.appSlogan = 'securus is safe';
 config.appId = 'securus.walletshell';
 config.appGitRepo = 'https://github.com/JOXW/securus-wallet'; //github rein
 
-// default port number for your daemon (e.g. TurtleCoind)
+// default port number for your daemon (e.g. Securus)
 config.daemonDefaultRpcPort = 14115;
 
 // wallet file created by this app will have this extension
@@ -28,7 +28,7 @@ config.walletServiceConfigFormat = "json";
 config.walletServiceRpcPort = 18114;
 
 // block explorer url, the [[TX_HASH]] will be substituted w/ actual transaction hash
-config.blockExplorerUrl = 'https://explorer.securuscoin.org/transaction.html?hash=[[TX_HASH]]';
+config.blockExplorerUrl = 'https://explorer.securuscoin.org/?hash=[[TX_HASH]]';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
 config.remoteNodeDefaultHost = 'securuscoin.org';
@@ -56,9 +56,9 @@ config.addressLength = 98;
 config.integratedAddressLength = config.addressLength + ((64 * 11) / 8);
 
 // minimum fee for sending transaction
-config.minimumFee = 0.01;
+config.minimumFee = 0.010;
 // minimum amount for sending transaction
-config.mininumSend = 0.01;
+config.mininumSend = 0.010;
 // default mixin/anonimity for transaction
 config.defaultMixin = 0;
 // to represent human readable value
