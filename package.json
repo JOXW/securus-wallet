@@ -2,7 +2,7 @@
   "name": "securuscoin",
   "productName": "Securus Wallet",
   "description": "Securus GUI Wallet",
-  "version": "v1.0.0",
+  "version": "v1.0.1",
   "homepage": "www.securuscoin.org",
   "repository": "www.securuscoin.org",
   "main": "main.js",

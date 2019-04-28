@@ -230,7 +230,7 @@ function updateBalance(data) {
 
     if (maxSendRaw <= 0) {
         inputSendAmountField.value = 0;
-        inputSendAmountField.setAttribute('max', '0.00');
+        inputSendAmountField.setAttribute('max', '0.000');
         inputSendAmountField.setAttribute('disabled', 'disabled');
         maxSendFormHelp.innerHTML = "You don't have any funds to be sent.";
         sendMaxAmount.dataset.maxsend = 0;

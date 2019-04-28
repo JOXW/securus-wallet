@@ -28,7 +28,7 @@ config.walletServiceConfigFormat = "json";
 config.walletServiceRpcPort = 18114;
 
 // block explorer url, the [[TX_HASH]] will be substituted w/ actual transaction hash
-config.blockExplorerUrl = 'https://explorer.securuscoin.org/?hash=[[TX_HASH]]';
+config.blockExplorerUrl = 'http://explorer.securuscoin.org/?hash=[[TX_HASH]]#blockchain_transaction';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
 config.remoteNodeDefaultHost = 'securuscoin.org';
