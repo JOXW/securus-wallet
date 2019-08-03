@@ -17,7 +17,7 @@ config.walletFileDefaultExt = 'swc';
 config.walletServiceBinaryFilename = 'securus-service';
 
 // version on the bundled service (securus-service)
-config.walletServiceBinaryVersion = "v1.0.2";
+config.walletServiceBinaryVersion = "v1.0.4";
 
 // config file format supported by wallet service, possible values:
 // ini -->  for turtle service (or its forks) version <= v0.8.3
@@ -74,7 +74,7 @@ config.addressBookObfuscationKey = '79009fb00ca1b7130832a42de45142cf6c4b7f333fe6
 // initial/sample entries to fill new address book
 config.addressBookSampleEntries = [
   {
-    name: 'Jordan Donation',
+    name: 'Your donation for the upcoming exchange listings',
     address: 'SCR1PahF4AN2DCBDE8MbFFTk6ABFiRe2nUNSP6gVhZANFfx2t6P5t8LKi7J2YkeaaJcR7jR4ZVKK2j88PtVmdAG18SwZKeLBUn',
     paymentId: '',
   }
