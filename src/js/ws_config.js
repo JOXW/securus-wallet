@@ -11,13 +11,13 @@ config.appGitRepo = 'https://github.com/JOXW/securus-wallet'; //github rein
 config.daemonDefaultRpcPort = 14115;
 
 // wallet file created by this app will have this extension
-config.walletFileDefaultExt = 'swc';
+config.walletFileDefaultExt = 'wallet';
 
 // change this to match your wallet service executable filename
 config.walletServiceBinaryFilename = 'securus-service';
 
 // version on the bundled service (securus-service)
-config.walletServiceBinaryVersion = "v1.0.4";
+config.walletServiceBinaryVersion = "v2.0.0";
 
 // config file format supported by wallet service, possible values:
 // ini -->  for turtle service (or its forks) version <= v0.8.3
@@ -60,7 +60,7 @@ config.minimumFee = 0.010;
 // minimum amount for sending transaction
 config.mininumSend = 0.010;
 // default mixin/anonimity for transaction
-config.defaultMixin = 0;
+config.defaultMixin = 0; // mit block 500000 = 3
 // to represent human readable value
 config.decimalPlaces = 3;
 // to convert from atomic unit
