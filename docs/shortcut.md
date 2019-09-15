@@ -1,6 +1,6 @@
 ## Available keyboard shortcut
 
-![WalletShell Logo](walletshell.png)
+
 
 | Shortcut                                       | Target                               | Conditions |
 | ---------                                      | -------                              | ---------- |
